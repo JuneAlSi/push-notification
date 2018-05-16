@@ -1,0 +1,25 @@
+{
+  "name": "push-notification",
+  "version": "1.0.0",
+  "description": "A simple push notification using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuneAlSi/push-notification.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuneAlSi/push-notification/issues"
+  },
+  "homepage": "https://github.com/JuneAlSi/push-notification#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "web-push": "^3.3.1"
+  }
+}
